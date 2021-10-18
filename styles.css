@@ -9,3 +9,26 @@
 body {
   font-family: 'Bebas Neue', Impact, sans-serif;
 }
+
+header {
+  display: flex;
+  background-color: rebeccapurple;
+  justify-content: center;
+}
+
+main {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+p {
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
