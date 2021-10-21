@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Bebas Neue', Impact, sans-serif;
+  margin: auto;
 }
 
 header {
@@ -40,7 +41,7 @@ p {
 
 .boxes {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 
@@ -59,4 +60,18 @@ p {
 
 #box-3 {
   background-color: #A5FF01;
+}
+
+/* media queries */
+
+@media (min-width: 1025px) {
+.boxes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+} 
+
+/* end */
 }
